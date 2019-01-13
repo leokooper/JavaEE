@@ -1,3 +1,15 @@
+#IntelliJ Idea Files
+.idea/*
+*.iml
+out/*
+target/*
+.idea
+target
+
+# Maven Project Files
+dependency-reduced-pom.xml
+buildNumber.properties
+
 # Compiled class file
 *.class
 
