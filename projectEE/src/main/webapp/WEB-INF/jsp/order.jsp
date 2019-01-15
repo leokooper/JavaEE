@@ -1,10 +1,15 @@
-<html lang="en">
+<%--
+  Created by IntelliJ IDEA.
+  User: leokooper
+  Date: 15/01/2019
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
 <head>
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
           integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-    <title>Main Page</title>
+    <title>Order</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -28,9 +33,8 @@
         </ul>
     </div>
 </nav>
-
 <p>
-    Home page!
+    Order page!
 </p>
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
