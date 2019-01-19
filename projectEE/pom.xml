@@ -23,25 +23,28 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-
-    <!--Wildfly deployment settings-->
-        <wildfly-hostname>localhost</wildfly-hostname>
-        <wildfly-port>9990</wildfly-port>
-        <wildfly-username>admin</wildfly-username>
-        <wildfly-password>Admin1ssimo-</wildfly-password>
     </properties>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.11</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/javax/javaee-api -->
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>8.0</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
     <build>
-        <finalName>projectEE</finalName>
+        <finalName>javaee</finalName>
         <plugins>
             <plugin>
                 <groupId>org.wildfly.plugins</groupId>
